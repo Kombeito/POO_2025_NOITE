@@ -19,5 +19,14 @@ internal class Program
         venda.RealizarVenda(p3);
 
         venda.MostrarResumo();
+// outra venda
+        Venda venda2 = new Venda(comprador, vendedor);
+
+        venda2.RealizarVenda(p1);
+        venda2.RealizarVenda(p2);
+        venda2.RealizarVenda(p3);
+
+        venda2.MostrarResumo();
+
     }
 }

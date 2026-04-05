@@ -14,7 +14,7 @@ namespace AgragacaoVenda
 
         static Produto()
         {
-            codigoAtual = 500;
+            codigoAtual = 501;
         }
 
         public Produto(string nome, double preco)
